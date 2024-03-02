@@ -53,6 +53,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 
 .banner-text{
@@ -167,6 +168,7 @@ margin-bottom: 30px;
 .img-section-1{
     align-items: center; 
     margin-top: 20px;
+    
 }
 
 
@@ -177,7 +179,7 @@ margin-bottom: 30px;
   }
   .card-1 {
     width: 573px;
-    height: 184px;
+    height: 165px;
     border-radius: 16px;
     border: 1px solid rgba(251, 181, 99, 0.2);
     background: rgba(251, 181, 99, 0.05);
@@ -341,7 +343,7 @@ margin-top: 10px;
 
 
   footer{
-    width: 1380px;
+    width: 1500px;
 height: 502px;
 background: rgba(19, 19, 24, 0.05);
   }
@@ -385,3 +387,48 @@ font-weight: 800
     font-style: normal;
     font-weight: 300;
   }
+
+  @media screen and (max-width: 600px) {
+    .banner-container{
+      width: 90%;
+    }
+    .from-section{
+      width: 10%;
+      padding: 5px;
+      justify-content: center;
+    }
+
+    .popularTours-section{
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    footer{
+      width: 500px;
+    }
+    .hr{
+      width: 220px;
+      margin-left: 140px;
+    }
+    .social{
+      margin-left: 190px;
+      margin-top: 60px;
+    }
+  }
+
+
