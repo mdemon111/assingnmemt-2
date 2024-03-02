@@ -1,0 +1,387 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.font-family{
+    font-family: "Mulish", sans-serif;
+}
+
+
+/* navbar section */
+.menu-container{
+    background-color: white;
+    padding: 20px;
+    align-items: center;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu{
+    display: flex;
+    gap: 50px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.logo-pic{
+    display: flex;
+    margin-top: 10px;
+    gap: 30px;
+    font-size: 35px;
+    font-weight: 700;
+}
+.itmes-1{
+    color: #FF5400;
+}
+.text-1{
+    color: #FF5400;
+}
+
+/* banner-section  */
+.banner-container {
+    background-image: url(/Images/Group\ 13\ \(1\)\ \(1\).png);
+  width: 90%;
+  height: 600px;
+  text-align: center;
+  margin: auto;
+  background-position: center;
+  opacity: 0.5px;
+  background-size: cover;
+  margin-top: 20px;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-text{
+    text-align: center;
+    color: white;
+    position: absolute;
+}
+
+.banner-text h2{
+    font-size: 60px;
+}
+.banner-text h4{
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1);
+}
+.from-section{
+    display: flex;
+    justify-content: center;
+gap: 24px;
+margin-top: 250px;
+width: 50%;
+height: 40px;
+padding: 20px;
+background: rgba(255, 255, 255, 0.30);
+
+}
+.input{
+    font-size: 12px;
+    border-radius: 9px;
+    padding: 10px;
+    border: none;
+}
+#btn{
+    background-color: #FF5400;
+    color: white;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    border-radius: 9px;
+}
+
+.popularTours-section{
+    display: flex;
+    padding: 90px;
+    justify-content: space-between;
+}
+.popularTours-container h2{
+   font-size: 48px;
+   font-weight: 800;
+}
+.popularTours-container p{
+  font-size: 20px;
+}
+
+.clone{
+    font-size: 50px;
+}
+.btn-1{
+    width: 170px;
+    height: 50px;
+    background-color: #FF5400;
+    color: white;
+    border: none;
+    margin-top: 30px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.popular-img{
+    height: 600px;
+}
+
+.choose-title{
+  color: #131318;
+text-align: center;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+margin-bottom: 20px;
+}
+/* Destination-container section */
+.discounts-container{
+  color: #131318;
+
+  text-align: center;
+  margin-top: 50px;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+}
+.discounts-container p{
+color: rgba(19, 19, 24, 0.70);
+text-align: center;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+margin-top: 20px;
+margin-bottom: 30px;
+}
+
+.Destination-section{
+    text-align: center;
+}
+.Destination-container{
+    text-align: center;
+}
+.Destination-container h2{
+    font-size: 40px;
+}
+.p{
+    font-size: 16px;
+}
+.img-section-1{
+    align-items: center; 
+    margin-top: 20px;
+}
+
+
+
+.choose-container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  .card-1 {
+    width: 573px;
+    height: 184px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.2);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 40px;
+    
+  }
+  .card-1 h3{
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    margin-top: 30px;
+  }
+  .card-1 p{
+    margin-top: 10px;
+  }
+  .card-2 {
+    width: 573px;
+    height: 184px;
+    border-radius: 16px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.2);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 30px;
+  }
+  .card-2 h3{
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    margin-top: 30px;
+  }
+  .card-2 p{
+    margin-top: 10px;
+  }
+  .card-3 {
+    width: 573px;
+    height: 184px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.2);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 30px;
+  }
+  .card-3 h3{
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    margin-top: 30px;
+  }
+  .card-3 p{
+    margin-top: 10px;
+  }
+  .card-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 30px;
+  }
+  .card-section-3 {
+    padding-left: 400px;
+    margin-top: 40px;
+  }
+
+   /* tour-to-satorini section */
+  .tour-to-satorini{
+   background-image: url(./Images/Group\ 39.png);
+   width: 1150px;
+   height: 500px;
+   text-align: center;
+   background-position: center;
+   opacity: 0.5px;
+   background-size: cover;
+   margin-top: 20px;
+   background-repeat: no-repeat;
+   position: relative;
+   align-items: center;
+   border-radius: 8px;
+   position: relative;
+  }
+  .tour-to-satorini-content{
+    padding-left: 140px;
+  }
+
+  .tour-to-satorini-section{
+    width: 539px;
+    height: 389px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    position: absolute;
+    margin-top: -440px;
+    margin-left: 700px;
+  }
+  .tour-to-content{
+    padding-left: 40px;
+    margin-top: 50px;
+  }
+  .tour-to-title {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    padding: 9px;
+    color: #131318;
+  }
+  .tour-to-content p{
+    padding: 9px;
+    color: #5A5A5D;
+  }
+  .tour-to-content h4{
+    padding: 9px;
+    color: #FF5400;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+  }
+  .btn-tour{
+    width: 150px;
+height: 52px;
+border-radius: 8px;
+background: #FF5400;
+border: none;
+padding: 9px;
+color: white;
+font-size: 20px;
+margin-top: 10px;
+  }
+  .day-content{
+    display: flex;
+
+  }
+
+  .fram-img{
+    text-align: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+  }
+
+  .tour-to-satorini-sections{
+    width: 539px;
+    height: 389px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    position: absolute;
+    margin-top: -440px;
+    margin-left: 200px;
+  }
+
+
+  .simple-perfect{
+    display: flex;
+    justify-content: space-around;
+    gap: 60px;
+    padding: 135px;
+  }
+  .simple-perfect-title h2{
+    color: #131318;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+  }
+
+
+  footer{
+    width: 1380px;
+height: 502px;
+background: rgba(19, 19, 24, 0.05);
+  }
+  .footer-content{
+    display: flex;
+    justify-content: center;
+  }
+  .top-1{
+    margin-top: 120px;
+
+  }
+  .top-2{
+    margin-top: 120px;
+    margin-left: 20px;
+    font-size: 32px;
+font-style: normal;
+font-weight: 800
+  }
+  .text-title{
+    color: #5A5A5D;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .social{
+    margin-left: 630px;
+    margin-top: 60px;
+  }
+  .hr{
+    margin-top: 40px;
+    width: 872px;
+    height: 1px;
+    margin-left: 260px;
+    
+  }
+  .reserved{
+    text-align: center;
+    margin-top: 60px;
+    color: #131318;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+  }
